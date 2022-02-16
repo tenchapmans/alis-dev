@@ -75,7 +75,7 @@ case $CHOICE in
     1 )
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "Alan Chapman"
+			git config --global user.name "tenchapmans"
 			git config --global user.email "brochapman@gmail.com"
 			sudo git config --system core.editor codium
 			git config --global credential.helper cache
